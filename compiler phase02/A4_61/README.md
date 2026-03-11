@@ -2,9 +2,8 @@
 
 --------------------------ASSIGNMENT 4 ---------------------
 
-GROUP MEMBERS:
+GROUP MEMBER:
 200101099 Tapan Sethi
-200101078 Pinkee Kumari Singh
 
 How to execute :
     just run make after changing the directory to A4_61
@@ -18,9 +17,5 @@ What will be generated as output:
 Changes made in grammar:
   -> As only a single postfix op is allowed in an expression so productions are changed as follows
      postfix_expression:
-					primary_expression 
-					|IDENTIFIER '[' expression ']' 
-					|IDENTIFIER '(' argument_expression_list_optional ')' 
-				  	|IDENTIFIER ARROW IDENTIFIER 
-				  ;
+					primary_expression | IDENTIFIER '[' expression ']' | IDENTIFIER '(' argument_expression_list_optional ')' | IDENTIFIER ARROW IDENTIFIER;
 
