@@ -15,7 +15,7 @@ a.out: lex.yy.c A3_61.o
 lex.yy.c: A3_61.l
 	$(FC) A3_61.l
 
-A3_14.o: A3_61.c
+A3_61.o: A3_61.c
 	$(CC) $(CFLAG) -w A3_61.c 
 
 clean:
